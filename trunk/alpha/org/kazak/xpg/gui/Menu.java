@@ -25,7 +25,7 @@ public class Menu extends JMenuBar {
 			public void run() {
 		
 				try {
-					Element root = XmlLoader.load("resources/menu.xml");
+					Element root = XmlLoader.load("/resources/menu.xml");
 					Iterator i = root.getChildren().iterator();
 						
 					while( i.hasNext() ) {

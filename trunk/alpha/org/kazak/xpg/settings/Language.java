@@ -14,7 +14,7 @@ public class Language {
 	public Language(String locale) {
 		words = new Hashtable<String,String>();
 		try {
-			Element element = XmlLoader.load("resources/language.xml");
+			Element element = XmlLoader.load("/resources/language.xml");
 			Iterator it = element.getChildren().iterator();
 			
 			while (it.hasNext()) {

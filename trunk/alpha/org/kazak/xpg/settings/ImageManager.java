@@ -17,7 +17,7 @@ public class ImageManager {
 	public ImageManager() {
 		images = new Hashtable<String,String>();
 		try {
-			Element root = XmlLoader.load("resources/icons.xml");
+			Element root = XmlLoader.load("/resources/icons.xml");
 			Iterator it = root.getChildren().iterator();
 			while( it.hasNext() ) {
 				Element element = (Element) it.next();
@@ -35,7 +35,7 @@ public class ImageManager {
 	public static ImageIcon getImage (String key) {
 		ImageIcon imageIcon;
 		String path = images.get(key);
-		java.awt.Image image = Toolkit.getDefaultToolkit().createImage(path);
+		java.awt.Image image = Toolkit.getDefaultToolkit().createImage(path.getClass().getResource(path));
 		imageIcon = new ImageIcon(image);
 		return imageIcon;
 	}

@@ -17,7 +17,7 @@ public class ToolBar extends JToolBar {
 	
 	 public ToolBar() {
 		 try {
-			Element root = XmlLoader.load("resources/toolbar.xml");
+			Element root = XmlLoader.load("/resources/toolbar.xml");
 			Iterator it = root.getChildren().iterator();
 			while ( it.hasNext() ) {
 				Element element = (Element) it.next();

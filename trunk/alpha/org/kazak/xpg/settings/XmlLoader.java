@@ -11,7 +11,7 @@ public class XmlLoader {
 	
 	public static Element load(String url) throws JDOMException, IOException {
 		SAXBuilder builder = new SAXBuilder(false);
-		Document document = builder.build(url);
+		Document document = builder.build(url.getClass().getResource(url));
 		return document.getRootElement();
 	}
 }
