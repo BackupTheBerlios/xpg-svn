@@ -1,0 +1,53 @@
+<words>
+	<word>
+		<key>WINDOW-TITLE</key>
+		<es_CO>XPg: Editor de Formas para eMaku</es_CO>
+		<en_US>XPg: eMaku Forms Editor</en_US>
+	</word>
+	<word>
+		<key>CONNECTION</key>
+		<es_CO>Conexión</es_CO>
+		<en_US>Connection</en_US>
+	</word>
+	<word>
+		<key>M-CONNECTION</key>
+		<es_CO>C</es_CO>
+		<en_US>C</en_US>
+	</word>
+	<word>
+		<key>T-CONNECTION</key>
+		<es_CO>Establece la conexión con la base de datos</es_CO>
+		<en_US>Establish connection to database</en_US>
+	</word>
+	<word>
+		<key>FILE</key>
+		<es_CO>Archivo</es_CO>
+		<en_US>File</en_US>
+	</word>
+	<word>
+		<key>CONNECT</key>
+		<es_CO>Connectar</es_CO>
+		<en_US>Connect</en_US>
+	</word>
+	<word>
+		<key>EXIT</key>
+		<es_CO>Salir</es_CO>
+		<en_US>Exit</en_US>
+	</word>
+	<word>
+		<key>HELP</key>
+		<es_CO>Ayuda</es_CO>
+		<en_US>Help</en_US>
+	</word>
+	<word>
+		<key>ABOUT</key>
+		<es_CO>Acerca de</es_CO>
+		<en_US>About</en_US>
+	</word>
+	<!-- ======================= Messages =============================== -->
+	<word>
+		<key>REALLY-CLOSE</key>
+		<es_CO>Realmente quiere salir?</es_CO>
+		<en_US>Really you want to exit?</en_US>
+	</word>
+</words>
