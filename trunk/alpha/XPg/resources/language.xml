@@ -1,8 +1,8 @@
 <words>
 	<word>
 		<key>WINDOW-TITLE</key>
-		<es_CO>XPg: Interfaz Administrativa para PostgreSQL</es_CO>
-		<en_US>XPg: Frontend for PostgreSQL</en_US>
+		<es_CO>XPg: Editor de Formas para eMaku</es_CO>
+		<en_US>XPg: eMaku Forms Editor</en_US>
 	</word>
 	<word>
 		<key>CONNECTION</key>
@@ -41,7 +41,7 @@
 	</word>
 	<word>
 		<key>ABOUT</key>
-		<es_CO>Acerca</es_CO>
+		<es_CO>Acerca de</es_CO>
 		<en_US>About</en_US>
 	</word>
 	<!-- ======================= Messages =============================== -->

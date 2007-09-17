@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-	<jmenu name="CONNECTION" mnemonic="M-CONNECTION">
-			<item name="FILE" class="org.kazak.xpg.database.Connector" method="connect" />
+	<jmenu name="FILE" mnemonic="M-FILE">
+			<item name="CONNECT" class="org.kazak.xpg.database.Connector" method="connect" />
 		<separator />
 		<item name="EXIT" class="org.kazak.xpg.Run" method="exit" />
 	</jmenu>
